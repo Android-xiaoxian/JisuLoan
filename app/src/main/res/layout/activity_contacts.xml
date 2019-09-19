@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_F4F4F4"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_auth_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:background="@color/white"
+        android:divider="@drawable/line_fengexian"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        android:paddingTop="7dp"
+        android:paddingEnd="15dp"
+        android:showDividers="middle">
+
+        <RelativeLayout
+            android:id="@+id/rl_contacts1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                style="@style/user_info_text2"
+                android:text="婚姻状况" />
+
+            <TextView style="@style/user_info_text3" />
+
+            <TextView
+                android:id="@+id/txt_cont_status"
+                style="@style/user_info_text1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_contacts2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                style="@style/user_info_text2"
+                android:text="直系亲属关系" />
+
+            <TextView style="@style/user_info_text3" />
+
+            <TextView
+                android:id="@+id/txt_cont_relation"
+                style="@style/user_info_text1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_contacts3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                style="@style/user_info_text2"
+                android:text="直系亲属" />
+
+            <TextView style="@style/user_info_text3" />
+
+            <TextView
+                android:id="@+id/txt_cont_family"
+                style="@style/user_info_text1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:divider="@drawable/line_fengexian"
+        android:orientation="vertical"
+        android:paddingStart="15dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="15dp"
+        android:showDividers="middle">
+
+        <RelativeLayout
+            android:id="@+id/rl_contacts4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                style="@style/user_info_text2"
+                android:text="朋友" />
+
+            <TextView style="@style/user_info_text3" />
+
+            <TextView
+                android:id="@+id/txt_cont_firend"
+                style="@style/user_info_text1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_contacts5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                style="@style/user_info_text2"
+                android:text="同事" />
+
+            <TextView style="@style/user_info_text3" />
+
+            <TextView
+                android:id="@+id/txt_cont_workmate"
+                style="@style/user_info_text1" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/include_auth_bottom" />
+</LinearLayout>

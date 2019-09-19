@@ -1,0 +1,251 @@
+<resources>
+    <string name="app_name">极速闪贷</string>
+
+    <string name="privacy_policy">1、您在使用我们的产品时，可能需要提供与具体功能相关的个人信息，以便我们更好地为您服务；\n\n
+2、您可以对个人信息进行回访、更正、删除和撤回同意等操作；\n\n
+3、未经您的同意，我们不会将您的个人信息用于您未授权的其他用途或目的。\n</string>
+    <string name="permissiom_description">\n权限使用说明：\n\n
+1、短信相关权限将用于为您自动填入验证码；\n\n
+2、通讯录相关权限将用于您完善资料时更便捷的添加联系人\n\n
+3、其他说明可查看《用户协议》和《隐私协议》。</string>
+
+    <string name="str1">1、20~40周岁（不向22岁以下学生提供借款服务）</string>
+    <string name="str2">1、身份证\n2、手机运营商\n3、银行卡\n4、信用卡号</string>
+    <string name="str3">还款方式：等额本息\n
+提前还款规则：提前结清费用=剩余应还利息总和+剩
+余本金（具体收费方式和费率轻请以借款合同和借据
+为准。）\n
+逾期罚息规则：逾期计算公式：逾期=滞纳金，具体收
+费方式和费率请以借款合同和借据为准。
+                        </string>
+    <string name="str4">公司名称：广州包子信息技术咨询服务有限公司\n
+概要介绍：是由万惠金融服务有限公司开发运营的快
+速借款引流APP。及贷为急需用钱的用户提供了低门
+槛、申请便捷、周期灵活的借款撮合/借款引流服务。
+用户能够通过及贷借款APP快速完成借款、还款等全
+流程操作。\n
+客服电话：10101212
+                        </string>
+    <string name="str5">极速闪贷是一款小额信用贷款APP，主要解决普通工薪族日常生活资金周转的需求。无抵押凭身份证即可借款，方便便捷。</string>
+    <string name="str6">提升信用分有助于申请贷款</string>
+    <string name="str7">什么是信用分？</string>
+    <string name="str8">您的信用报告已生成，请实时关注自己的信用，保持良好的金融行为</string>
+    <string name="str9">您尚未完成运营商授权，赶紧去授权并查看您的通话风险报告吧~</string>
+    <string name="str10">还款失败怎么办？</string>
+    <string name="str11">成功借款后多久到账？</string>
+    <string name="str12">为什么扣款成功APP还是显示逾期？</string>
+    <string name="str13">审核时间有多长？</string>
+    <string name="str14">极速闪贷的申请条件？</string>
+    <string name="str15">写评价，有机会最高拿20元奖励金</string>
+    <string name="str16">评价将匿名展示</string>
+    <string name="str17">活动规则</string>
+    <string name="str18">10%</string>
+    <string name="str19">点点</string>
+    <string name="str20">此次借款体验如何？</string>
+    <string name="str21">此次借款体验满足你的期待吗？说说你的体验心得吧。</string>
+    <string name="str22">很糟糕</string>
+    <string name="str23">一般般</string>
+    <string name="str24">棒极了</string>
+    <string name="str25">(0~40)</string>
+    <string name="str26">提交</string>
+    <string name="str27">评价成功</string>
+    <string name="str28">感谢您为借友提供的参考意见</string>
+    <string name="str29">完成</string>
+    <string name="str30">待提现</string>
+    <string name="str31">待还款</string>
+    <string name="str32">可复借</string>
+    <string name="str33">全部账单</string>
+    <string name="str34">小赢卡贷</string>
+    <string name="str35">2019&#8211;6&#8211;6</string>
+    <string name="str36">14000</string>
+    <string name="str37">6</string>
+    <string name="str37_2">个月</string>
+    <string name="str38">借款金额</string>
+    <string name="str39">借款期限</string>
+    <string name="str40">咨询在线客服</string>
+    <string name="str41">热门问题</string>
+    <string name="str42">问题详情</string>
+
+
+    <string name="str44">是否对你有帮助？</string>
+    <string name="str45">有用</string>
+    <string name="str46">无用</string>
+
+    <string name="str47">还款失败怎么办？</string>
+    <string name="str48">为什么扣款成功app还是显示逾期？</string>
+    <string name="str49">成功借款后多久到账？</string>
+    <string name="str50">审核时间有多长？</string>
+    <string name="str51">极速闪贷的申请条件？</string>
+
+    <string name="str52">如扣款失败，请您确认，银行卡是否余额充足且没有每日扣款额度限制。如有问题可直接咨询在线客服。</string>
+    <string name="str53">（1）扣款成功到状态更新会出现一定时差，正常情况下扣款成功24小时内会更新状态；\n（2）如有问题可直接咨询在线客服。</string>
+    <string name="str54">提现到账时间需要1个工作日，请您耐心等待。</string>
+    <string name="str55">正常情况下在一个工作日内会审核完毕，审核通过会及时以短信和APP站内消息方式通知您。</string>
+    <string name="str56">（1）年龄区间：20~60周岁；\n（2）有稳定收入来源；\n（3）新疆、西藏、港澳台地区暂未开通。</string>
+
+    <string name="str57">未认证</string>
+    <string name="str58">已认证</string>
+    <string name="str59">还款管理</string>
+    <string name="str60">您的最近一笔待还如下</string>
+    <string name="str61">最近应还</string>
+    <string name="str62">100.00</string>
+    <string name="str63">距还款日</string>
+    <string name="str64">0天</string>
+    <string name="str65">去还款</string>
+    <string name="str66">未来3月负债趋势评估</string>
+    <string name="str67">月应还分析</string>
+    <string name="str68">智能助手为您找到一款产品</string>
+    <string name="str69">月账单</string>
+    <string name="str70">应还金额</string>
+    <string name="str71">设为已还</string>
+    <string name="str72">平均放款金额</string>
+    <string name="str73">综合年利率:</string>
+    <string name="str74">借款期限:</string>
+    <string name="str75">35.99%</string>
+    <string name="str76">3&#8211;12月</string>
+    <string name="str77">借款费用</string>
+    <string name="str78">温馨提示：以下费用仅供参考，具体息费信息请以借款机构审核结果为准</string>
+    <string name="str79">1、借款息费</string>
+    <string name="str80">综合借款费率约为34%，年费率约为32.49%，下图为借款确认页面截图。</string>
+    <string name="str81">2、提前还款费用</string>
+    <string name="str82">提前还款需收取全额全期利息和费用，即提前还款总还款额与分期还款总还款额一样。\n提前结清费用=剩余期限借款利息+剩余期限借款费用(如有)\n应还金额=当期应还息费+剩余本金+提前结清费用</string>
+    <string name="str83">3、逾期费用</string>
+    <string name="str84">逾期将按日收取罚息（具体罚息费率见借款合同）。</string>
+    <string name="str85">申请前准备材料</string>
+    <string name="str86">身份证</string>
+    <string name="str87">手机号</string>
+    <string name="str88">银行卡</string>
+    <string name="str89">申请注意事项</string>
+    <string name="str90">1、申请资料</string>
+    <string name="str91">本人二代身份证，在有效期内，且显示年龄22-50岁之间；\n
+本人实名制手机号；最好使用6个月以上，大几率免本人电审；\n
+本人信用卡，最好有6个月账单，评估额度大。</string>
+    <string name="str92">2、额度评估</string>
+    <string name="str93">小赢卡贷会根据用户负债情况、工作、收入水平、信用等综合评估额度。\n
+或因资金方管控，每日总借款额度有限。如已通过审核但未抢到额度，还清次日登录APP查看实时额度状态。或者可退出APP，再次重新登录进行申请尝试。</string>
+    <string name="str94">3、风控电审</string>
+    <string name="str95">根据小赢卡贷官方客服回应，小赢卡贷是有可能打电话给联系人，大家要注意接听电话。从目前用户反馈来看，也没人说打电话给联系人了。</string>
+    <string name="str96">4、放款速度</string>
+    <string name="str97">额度申请提交成功并且通过后快速放款，具体到账时间与各银行系统有关，正常24小时内到账。</string>
+    <string name="str98">申请流程</string>
+    <string name="str99">1、完善基础信息</string>
+    <string name="s1">在“小赢卡贷”详情页下方补全手机号、姓名、身份证、职业信息，点击“提交申请”</string>
+    <string name="s2">2、填写借款需求</string>
+    <string name="s3">按实际需求选择借款金额、借款期限、借款用途，查看每月还款金额，点击“立即申请”</string>
+    <string name="s4">3、审核通过</string>
+    <string name="s5">审批通过，获得借款</string>
+    <string name="s6">在“小赢卡贷”详情页下方补全手机号、姓名、身份证、职业信息，点击“提交申请”</string>
+    <string name="s7">在“小赢卡贷”详情页下方补全手机号、姓名、身份证、职业信息，点击“提交申请”</string>
+    <string name="s8">在“小赢卡贷”详情页下方补全手机号、姓名、身份证、职业信息，点击“提交申请”</string>
+    <string name="s9">在“小赢卡贷”详情页下方补全手机号、姓名、身份证、职业信息，点击“提交申请”</string>
+
+
+    <string-array name="apply_Q">
+        <item>如何申请借款？</item>
+        <item>极速闪贷的申请条件？</item>
+        <item>申请需要哪些资料？</item>
+        <item>为什么身份证无法扫描成功？</item>
+        <item>人脸识别多次验证失败应如何处理？</item>
+        <item>审核中是否会拨打联系人电话？</item>
+        <item>已经填写完整资料为什么无法提交？</item>
+        <item>如何修改资料？</item>
+        <item>填写的资料会被泄密吗？</item>
+        <item>在审批中是否能修改额度？</item>
+        <item>定位失败原因？</item>
+    </string-array>
+
+    <string-array name="credit_Q">
+        <item>审核时间有多长？</item>
+        <item>为什么审核被拒？</item>
+        <item>最高可以申请多少额度？</item>
+        <item>额度会变动吗？</item>
+    </string-array>
+
+    <string-array name="borrow_Q">
+        <item>首款卡和还款卡能否一致？</item>
+        <item>支持绑定哪些储蓄卡？</item>
+        <item>银行卡绑定失败是什么原因？</item>
+        <item>借款时间多久？</item>
+        <item>提示提现失败原因？</item>
+        <item>其他朋友可以借用我的账号吗？</item>
+        <item>贷款如何提现？</item>
+        <item>给我的额度可以分多次提现吗？</item>
+        <item>当天还款完毕可以继续借款吗？</item>
+        <item>成功借款后多久到账？</item>
+        <item>借款成功，为什么我没有收到钱？</item>
+        <item>为什么借款成功后一直银行处理中？</item>
+        <item>借款利率是多少？</item>
+    </string-array>
+
+    <string-array name="payback_Q">
+        <item>提现后，从什么时候开始计算利息？</item>
+        <item>系统自动还款是什么时间？</item>
+        <item>为什么扣款成功app还是显示逾期？</item>
+        <item>为什么卡里余额充足，但无法还款成功？</item>
+        <item>极速闪贷支持哪些还款方式？</item>
+        <item>还款失败怎么办？</item>
+        <item>逾期记录在哪里看？</item>
+        <item>如果逾期，需要还清哪些费用？</item>
+    </string-array>
+
+    <string-array name="apply_A">
+        <item>注册成功后，客户在APP上进行相关资料填写及必要认证后，即可提交申请。</item>
+        <item>（1）年龄区间：20~60周岁；\n（2）有稳定收入来源；\n（3）新疆、西藏、港澳台地区暂未开通。</item>
+        <item>申请人需要提供以下真实资料：\n（1）本人身份证资料；\n（2）个人基本信息；\n（3）联系人资料；\n（4）运营商认证。</item>
+        <item>建议退出APP账户和应用后台，找个光线较好的地方进行扫描。若还是无法提交，请联系在线客服。</item>
+        <item>建议退出APP账户和应用后台重新登录，找个网络与光线较好的地方进行操作，按照提示操作。若还是无法提交，请联系在线客服。</item>
+        <item>由于信用评估需要会根据不同申请人的信用状况拨打单位及个人电话，但不会透露您借贷的资料，请确保填写真实的电话并保持电话通畅。</item>
+        <item>建议您把不能提交的页面描述并截图，并联系在线客服。</item>
+        <item>若资料已经提交审核，无法修改。如遇到问题请联系在线客服。</item>
+        <item>我们严格遵守国家相关法律法规，对您的隐私资料进行保护，未经您的同意，不会向任何第三方公司、组织和个人披露您的资料（法律法规另有规定的、根据与您约定的某项服务已获得您的同意的除外）。</item>
+        <item>不能。\n极速闪贷会根据您的信用情况综合评分，并予以不同的额度。审核通过后用户可自行提现。</item>
+        <item>请确认手机的GPS定位权限已打开，在提交页面停留2至5分钟后，再进行提交保存即可。</item>
+    </string-array>
+
+    <string-array name="credit_A">
+        <item>正常情况下在一个工作日内会审核完毕，审核通过会及时以短信和APP站内消息方式通知您。</item>
+        <item>您的综合评分不足导致无法通过审核。</item>
+        <item>极速闪贷额度申请范围为：1000~200000元。\n根据您的个人综合信用评估，每个人借款额度有所不同。</item>
+        <item>在申请借款或重新提交申请时，极速闪贷将根据您的信用进行综合评估。若您的信用发生变化，将影响授信额度提升或下降。</item>
+    </string-array>
+
+    <string-array name="borrow_A">
+        <item>部分借款产品至支持首款卡与还款卡一致，具体规则以页面展示规则为准。</item>
+        <item>请您留意每个借款产品银行卡绑定页面的支持银行列表。</item>
+        <item>（1)请确认银行预留的手机号，和在页面上填写的手机号是否一致；\n（2）确认绑定的是本人银行卡；\n（3）银行卡是否开通无卡支付，是否处于挂失、冻结、状态；\n（4）同一银行卡认证失败超过四次，则当天无法继续认证，请换一张银行卡进行认证，或次日再试。</item>
+        <item>满足您3~36个月的借款需求。</item>
+        <item>提示提现失败的原因有：\n（1）银行系统维护；\n（2)银行卡信息错误；\n（3）您的征信状态有更新导致提现失败；\n如有问题请联系在线客服。</item>
+        <item>不能。\n请您妥善保管好您的个人账户安全，请勿向他人泄露账号资料。</item>
+        <item>客户资料审核通过后（开户成功），选择“立即提现”，进入提现页面，填写相关信息提交申请，设置并输入密码，审批通过后会在1个工作日内放款至您绑定的银行卡账户中。</item>
+        <item>在单笔借款账单还清前，不可提现。</item>
+        <item>可以。\n若借款额度未失效，您可以再次借款；若额度已失效，您只需重新申请，等待申请通过后即可再次借款。</item>
+        <item>提现到账时间需要1个工作日，请您耐心等待。</item>
+        <item>建议您致电银行卡所属银行确认，或联系在线客服。</item>
+        <item>如遇提现人员过于集中或者银行升级服务，可能会延迟到账，请稍后查看，如有问题联系在线客服。</item>
+        <item>每个用户信用资质不同；利率不同，具体情况请以借款时实际展示利息为准。</item>
+    </string-array>
+
+    <string-array name="payback_A">
+        <item>从提现当日开始计算利息。</item>
+        <item>请在绑定的还款银行卡中存入足够的金额，系统会在还款日自动扣款，扣款成功后会更新账单状态。</item>
+        <item>（1）扣款成功到状态更新会出现一定时差，正常情况下扣款成功24小时内会更新状态；\n（2）如有问题可直接咨询在线客服。</item>
+        <item>有可能是以下情况：\n（1）系统正在批量处理扣款；\n（2)您的储蓄卡是二、三类账户，这类账户会有交易额度限制；\n（3）您的储蓄卡没有开通代扣服务。建议您联系储蓄卡发卡行询问服务是否开通，及可用额度是否充足。如有问题请联系在线客服。</item>
+        <item>目前仅支持app还款，如后续开放更多入口，敬请留意。</item>
+        <item>如扣款失败，请您确认，银行卡是否余额充足且没有每日扣款额度限制。如有问题可直接咨询在线客服。</item>
+        <item>点击【我的】—【还款管理】可查看逾期的借款记录</item>
+        <item>逾期后，应还金额为：借款金额+利息+滞纳金。</item>
+    </string-array>
+
+    <string name="first_1">极速放款</string>
+    <string name="first_2">信任首选</string>
+    <string name="first_3">超低门槛安全无忧</string>
+
+    <string name="guide_1">贷&#8201;款&#8201;多&#8201;样</string>
+    <string name="guide_2">额度越用越高&#160;&#160;&#8201;利率越用越低</string>
+    <string name="guide_3">快&#8201;捷&#8201;审&#8201;核</string>
+    <string name="guide_4">三步流程&#160;&#160;&#8201;最快三分钟放款</string>
+    <string name="guide_5">轻&#8201;松&#8201;借&#8201;款</string>
+    <string name="guide_6">最&#8201;高&#8201;二&#8201;十&#8201;万&#8201;额&#8201;度&#8201;循&#8201;环&#8201;借</string>
+
+    <string name="title_activity_sample_idcard">SampleIdcardActivity</string>
+</resources>

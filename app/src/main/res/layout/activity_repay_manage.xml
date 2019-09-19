@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_F8"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_public_title_black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:radius="6dp"
+                    app:shadowColor="@color/color_1a"
+                    app:shadowRadius="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:background="@drawable/shape_003">
+
+                        <TextView
+
+                            style="@style/txt_33_14"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/str60"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="43dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@color/lineColor" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="59dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    style="@style/txt_66_13"
+                                    android:text="@string/str61" />
+
+                                <TextView
+                                    style="@style/txt_r_12"
+                                    android:layout_marginTop="5dp"
+                                    android:text="@string/str62" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    style="@style/txt_66_13"
+                                    android:text="@string/str63" />
+
+                                <TextView
+                                    style="@style/txt_r_16"
+                                    android:layout_marginTop="4dp"
+                                    android:text="@string/str64" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/btn_toRepay"
+                            android:layout_width="245dp"
+                            android:layout_height="35dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="115dp"
+                            android:background="@drawable/shape_024"
+                            android:text="@string/str65"
+                            android:textColor="@color/color_red_txt"
+                            android:textSize="13sp" />
+                    </RelativeLayout>
+                </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+                <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:radius="6dp"
+                    app:shadowColor="@color/color_1a"
+                    app:shadowRadius="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="262dp"
+
+                        android:background="@drawable/shape_003"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/txt_33_14"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/str66"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="13dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@color/lineColor" />
+
+                        <LinearLayout
+                            android:id="@+id/ll_myChartView"
+                            android:layout_width="match_parent"
+                            android:layout_height="165dp"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/white"
+                            android:orientation="vertical" />
+
+
+                        <androidx.gridlayout.widget.GridLayout
+                            android:id="@+id/gl"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            app:columnCount="7"
+                            app:orientation="horizontal"
+                            app:rowCount="1">
+
+                            <TextView
+                                style="@style/txt_66_13"
+                                android:gravity="center"
+                                app:layout_columnWeight="1"
+                                app:layout_rowWeight="1" />
+
+                            <TextView
+                                style="@style/txt_66_13"
+                                android:gravity="center"
+                                app:layout_columnWeight="1"
+                                app:layout_rowWeight="1" />
+
+                            <TextView
+                                style="@style/txt_66_13"
+                                android:gravity="center"
+                                app:layout_columnWeight="1"
+                                app:layout_rowWeight="1" />
+
+                            <TextView
+                                style="@style/txt_66_13"
+                                android:gravity="top|center_horizontal"
+                                android:textColor="@color/text_33"
+                                app:layout_columnWeight="1"
+                                app:layout_rowWeight="1" />
+
+                            <TextView
+                                style="@style/txt_66_13"
+                                android:gravity="center"
+                                app:layout_columnWeight="1"
+                                app:layout_rowWeight="1" />
+
+                            <TextView
+                                style="@style/txt_66_13"
+                                android:gravity="center"
+                                app:layout_columnWeight="1"
+                                app:layout_rowWeight="1" />
+
+                            <TextView
+                                style="@style/txt_66_13"
+                                android:gravity="center"
+                                app:layout_columnWeight="1"
+                                app:layout_rowWeight="1" />
+                        </androidx.gridlayout.widget.GridLayout>
+
+                    </LinearLayout>
+                </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+                <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:radius="6dp"
+                    app:shadowColor="@color/color_1a"
+                    app:shadowRadius="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_myChartView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="259dp"
+                        android:background="@drawable/shape_003"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_repayment"
+                            style="@style/txt_33_14"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/str67"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="13dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@color/lineColor" />
+
+                    </LinearLayout>
+                </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+                <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:radius="6dp"
+                    app:shadowColor="@color/color_1a"
+                    app:shadowRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_003"
+                        android:divider="@drawable/line_fengexian"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="middle">
+
+                        <TextView
+                            android:id="@+id/tv_repayment2"
+                            style="@style/txt_33_14"
+                            android:layout_marginBottom="13dp"
+                            android:text="@string/str69"
+                            android:textStyle="bold" />
+
+                        <com.zxy.jisuloan.view.ListViewForScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:divider="@drawable/line_fengexian"
+                            android:dividerHeight="1dp" />
+                    </LinearLayout>
+                </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+                <include layout="@layout/include_bottom" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".activity.HelpCenterActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/include_public_title_black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom"
+        android:layout_below="@id/title"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/shape_017">
+
+                <ImageView
+                    android:layout_width="53dp"
+                    android:layout_height="77dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:src="@mipmap/pic_zn" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="94dp"
+                    android:layout_marginTop="26dp"
+                    android:text="在线客服竭诚为您服务"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn_kefu"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="94dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/shape_018"
+                    android:text="点我咨询"
+                    android:textColor="@color/text_33"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/txt_33_14"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:text="问题分类"
+                android:textStyle="bold" />
+
+            <GridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="2"
+                android:overScrollMode="never"
+                android:scrollbars="none" />
+
+
+            <TextView
+                style="@style/txt_33_14"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="14dp"
+                android:text="@string/str41"
+                android:textStyle="bold" />
+
+
+            <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:radius="6dp"
+                app:shadowColor="@color/color_1a"
+                app:shadowRadius="6dp">
+
+                <com.zxy.jisuloan.view.ListViewForScrollView
+                    android:id="@+id/lv_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_003"
+                    android:listSelector="@color/transparent"
+                    android:overScrollMode="never"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:scrollbars="none" />
+            </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/bottom"
+        layout="@layout/layout_help_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_F4F4F4"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_public_title_black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_logo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/logo" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/txt_33_16"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="41dp"
+                android:text="@string/str19" />
+
+            <TextView
+                style="@style/txt_99_12"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str16" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_progress"
+                style="@style/txt_33_15"
+                android:text="@string/str18" />
+
+            <com.zxy.jisuloan.view.RoundedProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/tv_progress" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/icon_jb" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                style="@style/txt_99_12"
+                android:text="@string/str15" />
+
+            <TextView
+                android:id="@+id/tv_rule"
+                style="@style/txt_r_12"
+                android:layout_alignParentEnd="true"
+                android:drawableEnd="@mipmap/icon_xy"
+                android:drawablePadding="3dp"
+                android:text="@string/str17" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <com.zxy.jisuloan.view.widget.RoundShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:radius="6dp"
+        app:shadowColor="@color/color_1a"
+        app:shadowRadius="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:background="@drawable/shape_003">
+
+            <TextView
+                style="@style/txt_33_16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:text="@string/str20" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="72dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    style="@style/style_rb"
+                    android:drawableTop="@drawable/selector_rb_001"
+                    android:text="@string/str22"
+                    android:textColor="@color/txt_color_selector001" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    style="@style/style_rb"
+                    android:layout_marginStart="62dp"
+                    android:drawableTop="@drawable/selector_rb_002"
+                    android:text="@string/str23"
+                    android:textColor="@color/txt_color_selector001" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    style="@style/style_rb"
+                    android:layout_marginStart="62dp"
+                    android:drawableTop="@drawable/selector_rb_003"
+                    android:text="@string/str24"
+                    android:textColor="@color/txt_color_selector003" />
+            </RadioGroup>
+        </RelativeLayout>
+    </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+
+    <com.zxy.jisuloan.view.widget.RoundShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:radius="6dp"
+        app:shadowColor="@color/color_1a"
+        app:shadowRadius="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="162dp">
+
+            <EditText
+                android:id="@+id/et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_003"
+                android:gravity="top"
+                android:hint="@string/str21"
+                android:inputType="text"
+                android:maxLength="40"
+                android:maxLines="5"
+                android:padding="21dp"
+                android:textColor="@color/text_66"
+                android:textColorHint="@color/text_99"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/txt_99_12"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="13dp"
+                android:layout_marginBottom="11dp"
+                android:text="@string/str25" />
+        </RelativeLayout>
+    </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="245dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_004"
+        android:text="@string/str26"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+</LinearLayout>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="205dp">
+
+            <com.youth.banner.Banner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/banner_pic_1" />
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="37dp"
+                android:drawableEnd="@mipmap/icon_xx_2"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:text="当前城市"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="235dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/shape_003"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_search"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:src="@mipmap/icon_ss" />
+
+                <EditText
+                    android:id="@+id/et"
+                    style="@style/editText_style3"
+                    android:hint="小赢卡贷"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingStart="6dp"
+                    android:paddingEnd="5dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_msg"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="12dp">
+
+                <ImageView
+                    android:id="@+id/img_msg"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@mipmap/icon_l" />
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/oval_010" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <com.zxy.jisuloan.view.widget.RoundShadowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginEnd="10dp"
+            app:radius="6dp"
+            app:shadowColor="@color/color_1a"
+            app:shadowRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+
+                android:background="@drawable/shape_003"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_kefu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="38dp"
+                        android:layout_height="52dp"
+                        android:src="@mipmap/znzs" />
+
+                    <TextView
+                        android:layout_width="227dp"
+                        android:layout_height="27dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="您还需要什么帮助，尽管来找我吧！"
+                        android:textColor="#ff1296db"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="21dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_hmdjc"
+                        style="@style/txt_66_12"
+                        android:drawableTop="@mipmap/icon_hmd"
+                        android:drawablePadding="6dp"
+                        android:text="黑名单检测" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv_djdzj"
+                        style="@style/txt_66_12"
+                        android:drawableTop="@mipmap/icon_djd"
+                        android:drawablePadding="6dp"
+                        android:text="大家都在借" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/fkyjy"
+                        style="@style/txt_66_12"
+                        android:drawableTop="@mipmap/icon_fkyj"
+                        android:drawablePadding="6dp"
+                        android:text="反馈与建议" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/yv_zshy"
+                style="@style/txt_66_12"
+                android:drawableTop="@mipmap/icon_hy"
+                android:drawablePadding="6dp"
+                android:text="钻石会员" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_hmdjc_2"
+                style="@style/txt_66_12"
+                android:drawableTop="@mipmap/icon_hmdjc"
+                android:drawablePadding="6dp"
+                android:text="黑名单检测" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_bjfx"
+                style="@style/txt_66_12"
+                android:drawableTop="@mipmap/icon_bjfx"
+                android:drawablePadding="6dp"
+                android:text="被拒分析" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_cdtjd"
+                style="@style/txt_66_12"
+                android:drawableTop="@mipmap/icon_cdtjd"
+                android:drawablePadding="6dp"
+                android:text="查多头借贷" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_xyk"
+                style="@style/txt_66_12"
+                android:drawableTop="@mipmap/icon_xyk"
+                android:drawablePadding="6dp"
+                android:text="信用卡" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/bg_F4F4F4" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp">
+
+            <TextView
+                style="@style/common_TextView_2"
+                android:text="为您推荐"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_look_more"
+                style="@style/txt_66_12"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="14dp"
+                android:drawableRight="@mipmap/icon_xy_2"
+                android:drawablePadding="4dp"
+                android:text="查看更多" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_home_logined"
+            android:layout_width="match_parent"
+            android:layout_height="298dp"
+            android:divider="@drawable/line_fengexian"
+            android:overScrollMode="never"
+            android:paddingStart="15dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="15dp"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_F4F4F4"
+            android:orientation="vertical">
+
+
+            <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:radius="6dp"
+                app:shadowColor="@color/color_1a"
+                app:shadowRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="335dp"
+                    android:background="@drawable/shape_003"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/banner_bj" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@drawable/line_fengexian"
+                        android:orientation="vertical"
+                        android:showDividers="middle">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                style="@style/common_TextView"
+                                android:layout_centerVertical="true"
+                                android:text="姓名" />
+
+                            <TextView
+                                android:id="@+id/tv_name"
+                                style="@style/txt_66_12"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:text="张三" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                style="@style/common_TextView"
+                                android:layout_centerVertical="true"
+                                android:text="身份证号" />
+
+                            <TextView
+                                android:id="@+id/tv_idCard"
+                                style="@style/txt_66_12"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:text="360***********2226" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp">
+
+                            <TextView
+                                style="@style/common_TextView"
+                                android:layout_centerVertical="true"
+                                android:text="手机号" />
+
+                            <TextView
+                                android:id="@+id/tv_phone"
+                                style="@style/txt_66_12"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:text="18888888888" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_check_blacklist"
+                        android:layout_width="200dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/shape_btnbg_003"
+                        android:text="查一查是否上黑名单"
+                        android:textColor="@color/mainColor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+            <include layout="@layout/include_bottom" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

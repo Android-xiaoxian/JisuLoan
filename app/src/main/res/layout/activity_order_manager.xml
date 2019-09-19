@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_public_title_black" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="7dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            style="@style/style_rb2"
+            android:background="@drawable/selector_checktv"
+            android:text="@string/str30" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            style="@style/style_rb2"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/selector_checktv"
+            android:text="@string/str31" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            style="@style/style_rb2"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/selector_checktv"
+            android:text="@string/str32" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            style="@style/style_rb2"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/selector_checktv"
+            android:checked="true"
+            android:text="@string/str33" />
+    </RadioGroup>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/include_recommend" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:divider="@null"
+        android:dividerHeight="15dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+
+</LinearLayout>

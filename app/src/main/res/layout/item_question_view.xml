@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/line_fengexian"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <TextView
+        android:id="@+id/tv_wt1"
+        style="@style/txt_66_13_2"
+        android:drawableEnd="@mipmap/icon_xx_3"
+        android:text="" />
+
+    <LinearLayout
+        android:id="@+id/ll_da1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_F8"
+        android:divider="@drawable/line_fengexian"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:showDividers="middle"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_da1"
+            style="@style/txt_66_12"
+            android:layout_marginBottom="15dp"
+            android:text="" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                style="@style/txt_99_11"
+                android:layout_alignParentBottom="true"
+                android:text="@string/str44" />
+
+            <TextView
+                android:id="@+id/tv_unUse"
+                style="@style/txt_66_11"
+                android:layout_alignParentEnd="true"
+                android:drawableLeft="@mipmap/icon_wy"
+                android:drawablePadding="5dp"
+                android:text="@string/str46" />
+
+            <TextView
+                android:id="@+id/tv_useful"
+                style="@style/txt_66_11"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="80dp"
+                android:drawableLeft="@mipmap/icon_dz_1"
+                android:drawablePadding="5dp"
+                android:text="@string/str45" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

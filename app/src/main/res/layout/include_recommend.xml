@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:id="@+id/ll_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:src="@mipmap/pic_qs" />
+
+        <TextView
+            android:id="@+id/tv_no_data"
+            style="@style/txt_99_12"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="您还没有浏览记录哦" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white">
+
+        <TextView
+            android:textStyle="bold"
+            style="@style/common_TextView"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:text="优质贷款推荐" />
+
+        <TextView
+            android:id="@+id/tv_more_loan"
+            style="@style/txt_66_14"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:drawableRight="@mipmap/icon_xy_2"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:text="更多贷款" />
+    </RelativeLayout>
+
+    <com.zxy.jisuloan.view.ListViewForScrollView
+        android:id="@+id/lv_tuisong2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:divider="@drawable/line_fengexian"
+        android:overScrollMode="never"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

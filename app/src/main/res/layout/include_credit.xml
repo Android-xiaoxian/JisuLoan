@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zxy.jisuloan.view.SportProgressView
+        android:id="@+id/sportProgressView"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:onClick="OnClick"
+        app:emptyColor="#FCCCA7"
+        app:endColor="@color/white"
+        app:progressWidth="8dp"
+        app:startColor="@color/white"
+        app:stepTextSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:drawableEnd="@mipmap/icon_xy_3"
+        android:text="信用分"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_time_assess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:text="评估时间：尚未评估"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+</RelativeLayout>

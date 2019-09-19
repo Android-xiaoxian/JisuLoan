@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.zxy.jisuloan.view.widget.RoundShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:shadowColor="@color/color_1a"
+    app:radius="6dp"
+    app:shadowRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:background="@drawable/shape_003"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="13dp"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            style="@style/txt_33_14"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="12.5dp"
+            android:text="@string/str34" />
+
+        <ImageView
+            android:id="@+id/img_status"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/bq_dtx" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="-25dp"
+            android:gravity="center"
+            android:rotation="45"
+            android:text="@string/str30"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            style="@style/txt_99_11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_toStartOf="@id/img_status"
+            android:text="@string/str35"
+            android:textSize="11sp" />
+
+        <TextView
+            style="@style/txt_r_16"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/str36" />
+
+        <TextView
+            android:id="@+id/tv_term"
+            style="@style/txt_33_16"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/str37" />
+
+        <TextView
+            style="@style/txt_33_12"
+            android:layout_alignBaseline="@id/tv_term"
+            android:layout_toEndOf="@id/tv_term"
+            android:text="@string/str37_2" />
+
+        <TextView
+            style="@style/txt_99_12"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="73dp"
+            android:text="@string/str38" />
+
+        <TextView
+            style="@style/txt_99_12"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="73dp"
+            android:text="@string/str38" />
+    </RelativeLayout>
+
+</com.zxy.jisuloan.view.widget.RoundShadowLayout>

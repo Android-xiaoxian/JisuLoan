@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_public_title_black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_F4F4F4"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="145dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@mipmap/pic_xyf"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="16dp">
+
+                        <TextView
+                            android:id="@+id/tv_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="641"
+                            android:textColor="#FEFEFE"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/tv_level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@id/tv_score"
+                            android:layout_toRightOf="@id/tv_score"
+                            android:text="良好"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:layout_width="75dp"
+                            android:layout_height="22dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/shape_014"
+                            android:gravity="center"
+                            android:text="信用提升"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/txt_w_12"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/str6" />
+
+                    <TextView
+                        style="@style/txt_w_12"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="25dp"
+                        android:drawableRight="@mipmap/icon_xy_3"
+                        android:drawablePadding="3dp"
+                        android:text="@string/str7" />
+                </LinearLayout>
+
+                <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:radius="6dp"
+                    app:shadowColor="@color/color_1a"
+                    app:shadowRadius="6dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="185dp"
+                        android:background="@drawable/shape_003">
+
+                        <TextView
+                            style="@style/txt_66_14"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginTop="23dp"
+                            android:text="信用报告"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            style="@style/txt_66_12"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginEnd="19dp"
+                            android:lineSpacingExtra="3dp"
+                            android:text="@string/str8" />
+
+                        <TextView
+                            style="@style/txt_r_20"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="115dp"
+                            android:text="65.52%" />
+
+                        <TextView
+                            style="@style/txt_r_20"
+                            android:layout_marginStart="113dp"
+                            android:layout_marginTop="115dp"
+                            android:text="4" />
+
+                        <TextView
+                            style="@style/txt_r_20"
+                            android:layout_marginStart="189dp"
+                            android:layout_marginTop="115dp"
+                            android:text="65.52%" />
+
+                        <TextView
+                            style="@style/txt_66_11"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="143dp"
+                            android:lineSpacingExtra="3dp"
+                            android:text="同城联系人\n占比" />
+
+                        <TextView
+                            style="@style/txt_66_11"
+                            android:layout_marginStart="114dp"
+                            android:layout_marginTop="143dp"
+                            android:lineSpacingExtra="3dp"
+                            android:text="互通联系人\n通话人数" />
+
+                        <TextView
+                            style="@style/txt_66_11"
+                            android:layout_marginStart="188dp"
+                            android:layout_marginTop="143dp"
+                            android:lineSpacingExtra="3dp"
+                            android:text="互通联系人\n通话次数" />
+                    </RelativeLayout>
+                </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+
+                <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    app:radius="6dp"
+                    app:shadowColor="@color/color_1a"
+                    app:shadowRadius="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_003"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="135dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="16dp">
+
+                                <TextView
+                                    style="@style/txt_33_14"
+                                    android:layout_centerVertical="true"
+                                    android:text="黑名单报告"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:layout_width="66dp"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentEnd="true"
+                                    android:background="@drawable/shape_015"
+                                    android:text="查看报告"
+                                    android:textColor="@color/mainColor"
+                                    android:textSize="12sp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="68dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginEnd="15dp"
+                                android:background="@drawable/shape_012">
+
+                                <TextView
+                                    style="@style/txt_33_12"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="14dp"
+                                    android:text="是否上黑名单" />
+
+                                <TextView
+                                    style="@style/txt_33_12"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="是否上黑名单" />
+
+                                <TextView
+                                    style="@style/txt_99_12"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginTop="14dp"
+                                    android:layout_marginEnd="15dp"
+                                    android:text="待获取" />
+
+                                <TextView
+                                    style="@style/txt_99_12"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginTop="40dp"
+                                    android:layout_marginEnd="15dp"
+                                    android:text="待获取" />
+                            </RelativeLayout>
+                        </LinearLayout>
+
+
+                        <include layout="@layout/view_line_002" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="129dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="16dp">
+
+                                <TextView
+                                    style="@style/txt_33_14"
+                                    android:layout_centerVertical="true"
+                                    android:text="通话风险报告"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:layout_width="66dp"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentEnd="true"
+                                    android:background="@drawable/shape_015"
+                                    android:text="查看报告"
+                                    android:textColor="@color/mainColor"
+                                    android:textSize="12sp" />
+                            </RelativeLayout>
+
+                            <TextView
+                                style="@style/txt_99_12"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginEnd="15dp"
+                                android:background="@drawable/shape_016"
+                                android:lineSpacingExtra="3dp"
+                                android:padding="14dp"
+                                android:text="@string/str9" />
+                        </LinearLayout>
+
+                        <include layout="@layout/view_line_002" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="164dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="16dp">
+
+                                <TextView
+                                    style="@style/txt_33_14"
+                                    android:layout_centerVertical="true"
+                                    android:text="多头借贷报告"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:layout_width="66dp"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentEnd="true"
+                                    android:background="@drawable/shape_015"
+                                    android:text="查看报告"
+                                    android:textColor="@color/mainColor"
+                                    android:textSize="12sp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="95dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginEnd="15dp"
+                                android:background="@drawable/shape_012">
+
+                                <TextView
+                                    style="@style/txt_33_12"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="14dp"
+                                    android:text="3个月内借款次数" />
+
+                                <TextView
+                                    style="@style/txt_33_12"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="40dp"
+                                    android:text="1个月内申请借款次数" />
+
+                                <TextView
+                                    style="@style/txt_33_12"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="68dp"
+                                    android:text="共债订单数" />
+
+                                <TextView
+                                    style="@style/txt_99_12"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginTop="14dp"
+                                    android:layout_marginEnd="15dp"
+                                    android:text="待获取" />
+
+                                <TextView
+                                    style="@style/txt_99_12"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginTop="40dp"
+                                    android:layout_marginEnd="15dp"
+                                    android:text="待获取" />
+
+                                <TextView
+                                    style="@style/txt_99_12"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginTop="68dp"
+                                    android:layout_marginEnd="15dp"
+                                    android:text="待获取" />
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <include layout="@layout/view_line_002" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="189dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="16dp">
+
+                                <TextView
+                                    style="@style/txt_33_14"
+                                    android:layout_centerVertical="true"
+                                    android:text="联系人检测报告"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:layout_width="66dp"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentEnd="true"
+                                    android:background="@drawable/shape_015"
+                                    android:text="去检测"
+                                    android:textColor="@color/mainColor"
+                                    android:textSize="12sp" />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="315dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="9dp"
+                                android:background="@drawable/shape_016"
+                                android:divider="@drawable/line_fengexian"
+                                android:orientation="vertical"
+                                android:showDividers="middle">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp">
+
+                                    <TextView
+                                        android:id="@+id/tv_name_1"
+                                        style="@style/txt_33_12"
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="15dp"
+                                        android:text="张三丰" />
+
+                                    <TextView
+                                        style="@style/txt_33_12"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_toEndOf="@id/tv_name_1"
+                                        android:text="不合格"
+                                        android:textColor="@color/color_red_txt" />
+
+                                    <TextView
+                                        style="@style/txt_33_12"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_marginEnd="15dp"
+                                        android:text="命中黑名单"
+                                        android:textColor="@color/color_red_txt" />
+
+                                    <TextView
+                                        android:id="@+id/tv_phone_1"
+                                        style="@style/txt_99_12"
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="35dp"
+                                        android:text="150****2779" />
+
+                                    <TextView
+                                        style="@style/txt_33_12"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_marginTop="35dp"
+                                        android:layout_marginEnd="15dp"
+                                        android:text="很少联系"
+                                        android:textColor="@color/color_red_txt" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp">
+
+                                    <TextView
+                                        android:id="@+id/tv_name_2"
+                                        style="@style/txt_33_12"
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="15dp"
+                                        android:text="张三丰" />
+
+                                    <TextView
+                                        style="@style/txt_33_12"
+                                        android:layout_marginStart="10dp"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_toEndOf="@id/tv_name_2"
+                                        android:text="不合格"
+                                        android:textColor="@color/color_red_txt" />
+
+                                    <TextView
+                                        style="@style/txt_99_12"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_marginEnd="15dp"
+                                        android:text="未命中黑名单" />
+
+                                    <TextView
+                                        android:id="@+id/tv_phone_2"
+                                        style="@style/txt_99_12"
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="35dp"
+                                        android:text="150****2779" />
+
+                                    <TextView
+                                        style="@style/txt_99_12"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_marginTop="35dp"
+                                        android:layout_marginEnd="15dp"
+                                        android:text="偶尔联系" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+                <Button
+                    android:layout_width="245dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/shape_004"
+                    android:text="开通会员，免费获取所有报告"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

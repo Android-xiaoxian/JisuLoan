@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_auth_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+    <com.zxy.jisuloan.view.widget.RoundShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:radius="6dp"
+        app:shadowColor="@color/color_1a"
+        app:shadowRadius="6dp">
+
+        <EditText
+            android:id="@+id/et_sms"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:background="@drawable/shape_003"
+            android:hint="请输入验证码"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text=""
+            android:textColor="@color/text_66"
+            android:textColorHint="@color/text_99"
+            android:textSize="13sp" />
+    </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+    <include layout="@layout/include_auth_bottom" />
+</LinearLayout>

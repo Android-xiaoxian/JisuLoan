@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_public_title_black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/bg_F4F4F4" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:text="借款申请未通过"
+        android:textColor="@color/text_33"
+        android:textSize="15sp" />
+
+    <TextView
+        style="@style/txt_66_11"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:text="2019-07-05 21：50" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="15dp"
+        android:background="@color/bg_F4F4F4" />
+
+    <TextView
+        style="@style/txt_66_14"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="30dp"
+        android:text="亲爱的张三，您向桃花申请的借款未通过，请保持良好的信用习惯。"/>
+</LinearLayout>

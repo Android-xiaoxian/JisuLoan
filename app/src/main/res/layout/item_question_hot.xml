@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_wt"
+        style="@style/txt_66_13_2"
+        android:drawableEnd="@mipmap/icon_xy_2"
+        android:text="@string/str47" />
+</LinearLayout>

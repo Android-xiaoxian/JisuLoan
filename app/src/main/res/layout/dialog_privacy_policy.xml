@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="310dp"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:overScrollMode="never"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="20dp"
+            android:layout_height="3dp"
+            android:background="@drawable/shape_007" />
+
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="20dp"
+            android:layout_height="3dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/shape_008" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_privacy_dialog"
+        android:layout_width="173dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_004"
+        android:text="同意"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+</LinearLayout>

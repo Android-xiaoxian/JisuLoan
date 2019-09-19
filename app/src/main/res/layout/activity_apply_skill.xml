@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_F4F4F4"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_public_title_black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:orientation="vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp">
+
+                <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:radius="6dp"
+                    app:shadowColor="@color/color_1a"
+                    app:shadowRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="148dp"
+                        android:background="@drawable/shape_003"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_name"
+                            style="@style/txt_33_14"
+                            android:layout_marginTop="30dp"
+                            android:text="@string/app_name"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="315dp"
+                            android:layout_height="67dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@color/bg_F8">
+
+                            <TextView
+                                android:id="@+id/tv_money"
+                                style="@style/txt_r_16"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginTop="13dp"
+                                android:text="140000" />
+
+                            <TextView
+                                style="@style/txt_66_12"
+                                android:layout_below="@id/tv_money"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/str72" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="166dp"
+                                android:layout_marginTop="18dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    style="@style/txt_66_12"
+                                    android:text="@string/str73" />
+
+                                <TextView
+                                    android:id="@+id/tv_rate"
+                                    style="@style/txt_33_12"
+                                    android:layout_marginStart="8dp"
+                                    android:text="@string/str75" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="166dp"
+                                android:layout_marginTop="40dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    style="@style/txt_66_12"
+                                    android:text="@string/str74" />
+
+                                <TextView
+                                    android:id="@+id/tv_term"
+                                    style="@style/txt_33_12"
+                                    android:layout_marginStart="8dp"
+                                    android:text="@string/str76" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+                <include layout="@layout/layout_skill_1" />
+
+                <include layout="@layout/layout_skill_2" />
+
+                <include layout="@layout/layout_skill_3" />
+
+                <include layout="@layout/layout_skill_4" />
+
+
+            </LinearLayout>
+
+            <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                app:radius="6dp">
+
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:src="@mipmap/ic_launcher" />
+            </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

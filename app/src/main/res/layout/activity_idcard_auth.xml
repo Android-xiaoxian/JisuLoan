@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_auth_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/common_TextView"
+                android:text="身份证人像正面" />
+
+            <RelativeLayout
+                android:layout_width="159dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/pic_sfzm">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="37dp"
+                        android:layout_height="37dp"
+                        android:src="@mipmap/icon_pz" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="拍摄身份证正面"
+                        android:textColor="@color/text_99"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_IDcard_f"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/common_TextView"
+                android:text="身份证国徽面" />
+
+            <RelativeLayout
+                android:layout_width="159dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/pic_sfzfm">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="37dp"
+                        android:layout_height="37dp"
+                        android:src="@mipmap/icon_pz" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="拍摄身份证国徽面"
+                        android:textColor="@color/text_99"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_IDcard_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_IDCard_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:divider="@drawable/line_fengexian"
+        android:showDividers="middle"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                style="@style/user_info_text2"
+                android:text="姓名" />
+
+
+            <TextView
+                android:id="@+id/txt_idcard_name"
+                style="@style/user_info_text1"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                style="@style/user_info_text2"
+                android:text="身份证号" />
+
+
+            <TextView
+                android:id="@+id/txt_idcard_no"
+                style="@style/user_info_text1"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_body"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <TextView
+                style="@style/user_info_text2"
+                android:text="人脸识别" />
+
+            <TextView
+                android:id="@+id/txt_idcard_face"
+                style="@style/user_info_text1"
+                android:text="@string/str57"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include layout="@layout/include_auth_bottom" />
+</LinearLayout>

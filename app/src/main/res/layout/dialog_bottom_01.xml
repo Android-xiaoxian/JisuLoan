@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp">
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            style="@style/common_TextView"
+            android:layout_centerInParent="true"
+            android:text="选择学历"
+            android:textColor="@color/text_99" />
+
+        <ImageView
+            android:id="@+id/img_dialog_cancel"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/icon_cw" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+    <ListView
+        android:id="@+id/lv_bottom_dialog01"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:layout_marginEnd="15dp"
+        android:divider="@drawable/line_fengexian"
+        android:overScrollMode="never"
+        android:listSelector="@color/transparent"
+        android:layout_marginStart="15dp"
+        android:scrollbars="none" />
+</LinearLayout>

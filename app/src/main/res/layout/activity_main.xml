@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/index_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/index_bottom"
+        android:background="@color/white"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/index_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:outlineAmbientShadowColor="#14000000">
+
+        <LinearLayout
+            android:id="@+id/index_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="OnClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/index_img_home"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/tab_icon_sy_xz" />
+
+            <TextView
+                android:id="@+id/index_txt_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="首页"
+                android:textColor="@color/text_first"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/index_borrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="OnClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/index_img_borrow"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/tab_icon_jq_wxz" />
+
+            <TextView
+                android:id="@+id/index_txt_borrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="借钱"
+                android:textColor="@color/text_99"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/index_credit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="OnClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/index_img_credit"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/tab_icon_xy_wxz" />
+
+            <TextView
+                android:id="@+id/index_txt_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="信用"
+                android:textColor="@color/text_99"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/index_mine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="OnClick"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/index_img_mine"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/tab_icon_wd_wxz" />
+
+            <TextView
+                android:id="@+id/index_txt_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="我的"
+                android:textColor="@color/text_99"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--<RadioGroup-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="49dp"-->
+        <!--android:orientation="horizontal">-->
+        <!--<RadioButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@color/transparent"-->
+            <!--android:text="首页"-->
+            <!--android:drawableTop="@mipmap/tab_icon_sy_xz"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/txt_color_selector005"/>-->
+        <!--<RadioButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@color/transparent"-->
+            <!--android:text="首页"-->
+            <!--android:drawableTop="@mipmap/tab_icon_sy_xz"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/txt_color_selector005"/>-->
+        <!--<RadioButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@color/transparent"-->
+            <!--android:text="首页"-->
+            <!--android:drawableTop="@mipmap/tab_icon_sy_xz"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/txt_color_selector005"/>-->
+        <!--<RadioButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@color/transparent"-->
+            <!--android:text="首页"-->
+            <!--android:drawableTop="@mipmap/tab_icon_sy_xz"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/txt_color_selector005"/>-->
+    <!--</RadioGroup>-->
+
+</RelativeLayout>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_F4F4F4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/include_public_title" />
+
+            <TextView
+                android:id="@+id/tv_pd"
+                style="@style/txt_w_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                android:text="产品详情" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="49dp"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="145dp"
+                    android:background="@color/mainColor">
+
+                </RelativeLayout>
+
+                <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="-125dp"
+                    android:layout_marginEnd="10dp"
+                    app:radius="6dp"
+                    app:shadowColor="@color/color_1a"
+                    app:shadowRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="143dp"
+
+                        android:background="@drawable/shape_003"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <LinearLayout style="@style/ll_style_1">
+
+                                <TextView
+                                    android:id="@+id/tv_loan"
+                                    style="@style/common_TextView_4"
+                                    android:text="14000" />
+
+                                <TextView
+                                    style="@style/common_TextView3"
+                                    android:layout_marginTop="8dp"
+                                    android:text="平均放款金额" />
+                            </LinearLayout>
+
+                            <LinearLayout style="@style/ll_style_1">
+
+                                <TextView
+                                    android:id="@+id/tv_rate"
+                                    style="@style/common_TextView_4"
+                                    android:text="35.99%" />
+
+                                <TextView
+                                    style="@style/common_TextView3"
+                                    android:layout_marginTop="8dp"
+                                    android:text="综合年利率" />
+                            </LinearLayout>
+
+                            <LinearLayout style="@style/ll_style_1">
+
+                                <TextView
+                                    android:id="@+id/tv_time"
+                                    style="@style/common_TextView_4"
+                                    android:text="42小时" />
+
+                                <TextView
+                                    style="@style/common_TextView3"
+                                    android:layout_marginTop="8dp"
+                                    android:text="平均放款时间" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <LinearLayout style="@style/ll_style_1">
+
+                                <TextView
+                                    android:id="@+id/tv_quota"
+                                    style="@style/common_TextView_4"
+                                    android:text="0.10~3.00万元" />
+
+                                <TextView
+                                    style="@style/common_TextView3"
+                                    android:layout_marginTop="8dp"
+                                    android:text="额度" />
+                            </LinearLayout>
+
+                            <LinearLayout style="@style/ll_style_1">
+
+                                <TextView
+                                    android:id="@+id/tv_term"
+                                    style="@style/common_TextView_4"
+                                    android:text="3~12月" />
+
+                                <TextView
+                                    style="@style/common_TextView3"
+                                    android:layout_marginTop="8dp"
+                                    android:text="期限" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_strategy"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="44dp"
+                        android:layout_height="22dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/shape_009"
+                        android:gravity="center"
+                        android:text="攻略"
+                        android:textColor="@color/color_red_txt"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_strategy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_weight="1"
+                        android:drawableRight="@mipmap/icon_xy_2"
+                        android:text="小赢卡贷申请技巧及注意事项"
+                        android:textColor="@color/text_66"
+                        android:textSize="13sp" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="#f8f8f8" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/common_TextView_2"
+                        android:layout_marginStart="15dp"
+                        android:text="产品优势"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_advantage"
+                        style="@style/common_TextView"
+                        android:layout_marginStart="15dp"
+                        android:text="平均放款金额远优于同类产品" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="#f8f8f8" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <CheckedTextView
+                            android:id="@+id/ctv_apply"
+                            style="@style/common_TextView"
+                            android:layout_width="79dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/selector_checktv"
+                            android:checked="true"
+                            android:gravity="center"
+                            android:text="申请资料"
+                            android:textAlignment="center"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <CheckedTextView
+                            android:id="@+id/ctv_evaluate"
+                            style="@style/common_TextView"
+                            android:layout_width="79dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/selector_checktv"
+                            android:gravity="center"
+                            android:text="查看评价"
+                            android:textAlignment="center"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/view_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:background="@color/white">
+
+                    <TextView
+                        style="@style/common_TextView"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="14dp"
+                        android:text="基本资料" />
+
+                    <TextView
+                        android:id="@+id/tv_finish"
+                        style="@style/txt_66_14"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="15dp"
+                        android:drawableRight="@mipmap/icon_xx_slices"
+                        android:drawablePadding="5dp"
+                        android:text="已完成" />
+                </RelativeLayout>
+
+                <include layout="@layout/view_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:divider="@drawable/line_fengexian"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:showDividers="middle">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/common_TextView"
+                            android:layout_centerVertical="true"
+                            android:text="手机号" />
+
+                        <TextView
+                            android:id="@+id/tv_phone"
+                            style="@style/txt_66_14"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="188****8888" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/common_TextView"
+                            android:layout_centerVertical="true"
+                            android:text="姓名" />
+
+                        <TextView
+                            android:id="@+id/tv_name"
+                            style="@style/txt_66_14"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="张三" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/common_TextView"
+                            android:layout_centerVertical="true"
+                            android:text="身份证号" />
+
+                        <TextView
+                            android:id="@+id/tv_idCard"
+                            style="@style/txt_66_14"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="360***********2226" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/common_TextView"
+                            android:layout_centerVertical="true"
+                            android:text="职业" />
+
+                        <TextView
+                            android:id="@+id/tv_job"
+                            style="@style/txt_66_14"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:text="工薪族" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:gravity="center"
+                    android:text="申请借款过程中，APP内不会收取任何费用"
+                    android:textColor="@color/text_99"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <CheckedTextView
+            android:id="@+id/ctv_house"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_ctv_house"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="收藏"
+            android:textAlignment="center"
+            android:textColor="@color/text_66"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_apply"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/mainColor"
+            android:text="提交申请"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>

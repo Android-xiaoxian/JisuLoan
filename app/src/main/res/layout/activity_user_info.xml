@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_F4F4F4"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_auth_title" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/white"
+                    android:divider="@drawable/line_fengexian"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:showDividers="middle">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_user1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/user_info_text2"
+                            android:text="学历" />
+
+                        <TextView style="@style/user_info_text3" />
+
+                        <TextView
+                            android:id="@+id/txt_user_edu"
+                            style="@style/user_info_text1" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_user2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/user_info_text2"
+                            android:text="职业信息" />
+
+                        <TextView style="@style/user_info_text3" />
+
+                        <TextView
+                            android:id="@+id/txt_user_job"
+                            style="@style/user_info_text1" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_user3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/user_info_text2"
+                            android:text="月均收入" />
+
+                        <TextView style="@style/user_info_text3" />
+
+                        <TextView
+                            android:id="@+id/txt_user_income"
+                            style="@style/user_info_text1" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_user4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/user_info_text2"
+                            android:text="期望借款金额" />
+
+                        <TextView style="@style/user_info_text3" />
+
+                        <TextView
+                            android:id="@+id/txt_user_want_money"
+                            style="@style/user_info_text1" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_user5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/user_info_text2"
+                            android:text="居住地址" />
+
+                        <TextView style="@style/user_info_text3" />
+
+                        <TextView
+                            android:id="@+id/txt_user_home_address"
+                            style="@style/user_info_text1" />
+                    </RelativeLayout>
+
+                    <EditText
+                        android:id="@+id/et_user_address"
+                        style="@style/editText_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:focusableInTouchMode="true"
+                        android:hint="请输入详细信息，如道路、门牌号、小区、栋楼号、单元室等"
+                        android:inputType="text"
+                        android:maxLength="30"
+                        android:maxLines="1"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_user_tips1"
+                    style="@style/user_info_text4" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/white"
+                    android:divider="@drawable/line_fengexian"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="15dp"
+                    android:showDividers="middle">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/user_info_text2"
+                            android:text="单位名称" />
+
+                        <EditText
+                            android:id="@+id/et_company_name"
+                            style="@style/editText_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="100dp"
+                            android:gravity="right|center_vertical"
+                            android:hint="请输入"
+                            android:inputType="text"
+                            android:maxLength="30"
+                            android:maxLines="1"
+                            android:textColor="@color/text_66"
+                            android:textColorHint="@color/text_66"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_user6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
+
+                        <TextView
+                            style="@style/user_info_text2"
+                            android:text="工作地址" />
+
+                        <TextView style="@style/user_info_text3" />
+
+                        <TextView
+                            android:id="@+id/txt_user_work_address"
+                            style="@style/user_info_text1" />
+                    </RelativeLayout>
+
+                    <EditText
+                        android:id="@+id/et_workAddress"
+                        style="@style/editText_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:hint="请输入详细信息，如道路、门牌号、小区、栋楼号、单元室等"
+                        android:inputType="text"
+                        android:maxLength="30"
+                        android:maxLines="1"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_user_tips2"
+                    style="@style/user_info_text4" />
+
+                <include layout="@layout/include_auth_bottom" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_F4F4F4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_borrow_title"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/mainColor"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="借钱"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.zxy.jisuloan.view.ObservableScrollView
+            android:id="@+id/sv_borrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/colorPrimary" />
+
+
+                    <com.zxy.jisuloan.view.widget.RoundShadowLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        app:radius="6dp"
+                        app:shadowColor="@color/color_1a"
+                        app:shadowRadius="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="83dp"
+                            android:background="@drawable/shape_003"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:src="@mipmap/icon_xpss" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="9dp"
+                                    android:text="新品上市"
+                                    android:textColor="@color/text_66"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:src="@mipmap/icon_hyzx" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="9dp"
+                                    android:text="会员专享"
+                                    android:textColor="@color/text_66"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:src="@mipmap/icon_kssh" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="9dp"
+                                    android:text="快速审核"
+                                    android:textColor="@color/text_66"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:src="@mipmap/icon_ccfq" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="9dp"
+                                    android:text="超长分期"
+                                    android:textColor="@color/text_66"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </com.zxy.jisuloan.view.widget.RoundShadowLayout>
+                </RelativeLayout>
+
+
+                <RadioGroup
+                    android:id="@+id/rg_borrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingStart="14dp"
+                    android:paddingEnd="13dp">
+
+                    <RadioButton
+                        android:id="@+id/rb1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:button="@null"
+                        android:drawableEnd="@drawable/selector_drawableend_rb"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:minWidth="45dp"
+                        android:text="智能排序"
+                        android:textColor="@color/txt_color_selector004"
+                        android:textSize="13sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5" />
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:button="@null"
+                        android:drawableEnd="@drawable/selector_drawableend_rb"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:minWidth="45dp"
+                        android:text="高通过率"
+                        android:textColor="@color/txt_color_selector004"
+                        android:textSize="13sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5" />
+
+                    <RadioButton
+                        android:id="@+id/rb3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:button="@null"
+                        android:drawableEnd="@drawable/selector_drawableend_rb"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:minWidth="34dp"
+                        android:text="低利率"
+                        android:textColor="@color/txt_color_selector004"
+                        android:textSize="13sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5" />
+
+                    <RadioButton
+                        android:id="@+id/rb4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:button="@null"
+                        android:drawableEnd="@drawable/selector_drawableend_rb"
+                        android:drawablePadding="5dp"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:minWidth="25dp"
+                        android:text="筛选"
+                        android:textColor="@color/txt_color_selector004"
+                        android:textSize="13sp" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/tv_tips1"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@mipmap/pic_bg_1"
+                    android:gravity="center"
+                    android:text="申请5个以上产品，可大幅度提高成功率至95%"
+                    android:textColor="#ff333333"
+                    android:textSize="12sp" />
+
+                <com.zxy.jisuloan.view.ListViewForScrollView
+                    android:id="@+id/lv_borrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:divider="@drawable/line_fengexian"
+                    android:dividerHeight="1dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:scrollbars="none" />
+
+                <include layout="@layout/include_bottom" />
+            </LinearLayout>
+
+        </com.zxy.jisuloan.view.ObservableScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_borrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RadioGroup
+                android:id="@+id/rg_borrow2"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingStart="14dp"
+                android:paddingEnd="13dp">
+
+                <RadioButton
+                    android:id="@+id/rb12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:button="@null"
+                    android:drawableEnd="@drawable/selector_drawableend_rb"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:minWidth="45dp"
+                    android:text="智能排序"
+                    android:textColor="@color/txt_color_selector004"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5" />
+
+                <RadioButton
+                    android:id="@+id/rb22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:button="@null"
+                    android:drawableEnd="@drawable/selector_drawableend_rb"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:minWidth="45dp"
+                    android:text="高通过率"
+                    android:textColor="@color/txt_color_selector004"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5" />
+
+                <RadioButton
+                    android:id="@+id/rb32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:button="@null"
+                    android:drawableEnd="@drawable/selector_drawableend_rb"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:minWidth="34dp"
+                    android:text="低利率"
+                    android:textColor="@color/txt_color_selector004"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5" />
+
+                <RadioButton
+                    android:id="@+id/rb42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@null"
+                    android:drawableEnd="@drawable/selector_drawableend_rb"
+                    android:drawablePadding="5dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:minWidth="25dp"
+                    android:text="筛选"
+                    android:textColor="@color/txt_color_selector004"
+                    android:textSize="13sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_tips2"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@mipmap/pic_bg_1"
+                android:gravity="center"
+                android:text="申请5个以上产品，可大幅度提高成功率至95%"
+                android:textColor="#ff333333"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

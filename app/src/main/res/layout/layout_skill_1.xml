@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/shape_003"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+        <TextView
+            style="@style/txt_yy_14"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/str77"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/txt_99_11"
+            android:layout_marginTop="15dp"
+            android:text="@string/str78" />
+
+        <TextView
+            style="@style/txt_33_14"
+            android:layout_marginTop="20dp"
+            android:text="@string/str79"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/txt_33_12"
+            android:layout_marginTop="6dp"
+            android:text="@string/str80" />
+
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="9dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/pic_bg" />
+
+        <!--<include layout="@layout/layout_skill_1_1" />-->
+
+        <TextView
+            style="@style/txt_33_14"
+            android:layout_marginTop="20dp"
+            android:text="@string/str81"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/txt_33_12"
+            android:layout_marginTop="6dp"
+            android:text="@string/str82" />
+
+        <TextView
+            style="@style/txt_33_14"
+            android:layout_marginTop="20dp"
+            android:text="@string/str83"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/txt_33_12"
+            android:layout_marginTop="6dp"
+            android:text="@string/str84" />
+
+</LinearLayout>
+

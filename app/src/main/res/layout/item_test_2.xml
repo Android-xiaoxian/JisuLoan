@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="82dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/img_test"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:id="@+id/tv_test2"
+        style="@style/txt_33_14"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="19dp"
+        android:text=""
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_test3"
+        style="@style/txt_66_12"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="39dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="66dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/shape_015"
+        android:text=""
+        android:textColor="@color/mainColor"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/lineColor" />
+</RelativeLayout>
